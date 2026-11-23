@@ -9,7 +9,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Orthoaliner — Ortodoncia en Zapotlanejo, Jalisco">
 <meta property="og:description" content="Brackets, alineadores e implantes dentales con el Dr. Carlos González. Clínica pionera en Zapotlanejo desde 1998.">
-<meta property="og:image" content="https://orthoaliner.github.io/Feed/assets/office-1.jpg">
+<meta property="og:image" content="https://orthoaliner.github.io/Feed/assets/consultorio.jpg">
 <meta property="og:url" content="https://orthoaliner.github.io/Feed/">
 <meta property="og:locale" content="es_MX">
 <link rel="icon" href="assets/WhatsApp%20Image%202024-06-04%20at%207.34.02%20PM.jpeg">
@@ -18,15 +18,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- ===================== DATOS ESTRUCTURADOS (SEO local) ===================== -->
-<!-- Esto ayuda a Google a mostrar horario, dirección y especialidad directo en el buscador. No requiere nada externo, ya está listo. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Dentist",
   "name": "Orthoaliner",
-  "image": "https://orthoaliner.github.io/Feed/assets/office-1.jpg",
+  "image": "https://orthoaliner.github.io/Feed/assets/consultorio.jpg",
   "url": "https://orthoaliner.github.io/Feed/",
-  "telephone": "",
+  "telephone": "+523311327223",
   "priceRange": "$600 MXN consulta inicial",
   "address": {
     "@type": "PostalAddress",
@@ -59,20 +58,9 @@
   gtag('config', 'G-R0Z2W61Y56');
 </script>
 
-<!-- ===================== META PIXEL (placeholder) ===================== -->
-<!-- Reemplaza TU_PIXEL_ID por tu Pixel ID real (Administrador de eventos de Meta Business Suite). Necesario antes de correr Meta Ads para medir resultados. -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', 'TU_PIXEL_ID');
-  fbq('track', 'PageView');
-</script>
+<!-- META PIXEL: quitado porque no tenía ID real. Cuando lo tengas, pega aquí el código de píxel de Meta Business Suite.
+     Los botones ya envían eventos (Contact, Lead) automáticamente si el píxel está cargado. -->
+
 <style>
   :root{
     --teal:#0ea892;
@@ -195,23 +183,10 @@
   .link-btn.solid:hover{background:var(--teal-dark);}
   .link-btn:not(.solid):hover{border-color:var(--teal); color:var(--teal);}
 
-  /* ---------- Feed grid ---------- */
-  .feed-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:16px;}
+  /* ---------- Feed ---------- */
+  .feed-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:16px; gap:12px; flex-wrap:wrap;}
   .feed-head h2{font-size:1.3rem;}
   .feed-head a{font-size:.85rem; font-weight:600; color:var(--teal);}
-  .feed-grid{
-    display:grid; grid-template-columns:repeat(3, 1fr); gap:4px;
-  }
-  .feed-tile{
-    position:relative; aspect-ratio:1/1; overflow:hidden; background:var(--line);
-  }
-  .feed-tile img{width:100%; height:100%; object-fit:cover; transition:transform .35s ease;}
-  .feed-tile:hover img{transform:scale(1.06);}
-  .feed-tile .play{
-    position:absolute; top:8px; right:8px; width:18px; height:18px;
-    filter:drop-shadow(0 1px 2px rgba(0,0,0,.5));
-  }
-  @media (max-width:560px){ .feed-grid{gap:2px;} }
 
   /* ---------- Section heading ---------- */
   .eyebrow{
@@ -242,7 +217,7 @@
     background:color-mix(in srgb, var(--navy) 10%, transparent);
     display:inline-block; padding:3px 9px; border-radius:100px; width:fit-content;
   }
-  :root[data-theme="dark"] .svc-dur,
+  :root[data-theme="dark"] .svc-dur{ color:#b9c6ff; }
   @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .svc-dur{ color:#b9c6ff; } }
 
   /* ---------- About / clinic ---------- */
@@ -320,10 +295,6 @@
     box-shadow:0 8px 20px rgba(0,0,0,.25);
   }
   .float-wa:hover{filter:brightness(1.05);}
-
-  @media (prefers-reduced-motion:reduce){
-    .feed-tile img{transition:none;}
-  }
 
   /* ---------- Reseñas ---------- */
   .reviews-grid{
@@ -460,47 +431,44 @@
 </section>
 
 <!-- ===================== FEED (widget de Instagram en vivo) ===================== -->
-      <h2>Lo último del feed</h2>
-      <a href="https://www.instagram.com/orthoaliner" target="_blank" rel="noopener">Ver en Instagram →</a>
-    </div>
-    <div class="feed-grid">
-     <!-- SnapWidget -->
-<div class="snapwidget-embed" data-widget-id="9fa34aa2-c660-4adf-a260-3d6165fffd5d" style="aspect-ratio:765/510; padding-bottom:22px"></div>
-<script src="https://snapwidget.com/js/snapwidget-embed.js"></script>
 <section id="feed">
   <div class="wrap">
     <div class="feed-head">
-      <iframe src="https://snapwidget.com/embed/YOUR_WIDGET_ID" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:480px;"></iframe>
+      <h2>Lo último del feed</h2>
+      <a href="https://www.instagram.com/orthoaliner" target="_blank" rel="noopener">Ver en Instagram →</a>
     </div>
+
+    <!-- SnapWidget -->
+    <div class="snapwidget-embed" data-widget-id="9fa34aa2-c660-4adf-a260-3d6165fffd5d" style="aspect-ratio:765/510; padding-bottom:22px; max-width:100%;"></div>
+    <script src="https://snapwidget.com/js/snapwidget-embed.js"></script>
   </div>
 </section>
 
 <!-- ===================== RESEÑAS ===================== -->
-<!-- IMPORTANTE: sustituye las 2 reseñas de ejemplo por reseñas REALES copiadas de tu perfil de Google Business (nombre + texto tal cual los dejó el paciente). No publiques reseñas inventadas: eso viola las políticas de Google y además es ilegal presentarlas como reales si no lo son. -->
 <section id="resenas">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Reseñas</span>
       <h2>Lo que dicen nuestros pacientes en Google</h2>
-      <p>Reseñas reales de pacientes de Orthoaliner. Sustituye estos dos ejemplos por tus reseñas de Google Business.</p>
+      <p>Opiniones reales de pacientes de Orthoaliner, publicadas en nuestro perfil de Google.</p>
     </div>
     <div class="reviews-grid">
 
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
-        <p>"[Pega aquí el texto exacto de una reseña real de Google, copiada tal cual la dejó el paciente]"</p>
-        <div class="review-name">[Nombre del paciente] <span>· Google</span></div>
+        <p>"¡Excelente servicio! El trato es increíble desde el primer momento. Me realizaron un tratamiento de ortodoncia y el resultado fue excelente, cuidando cada detalle y asegurando de que estuviera cómodo en todo momento. Definitivamente se merecen las 5 estrellas."</p>
+        <div class="review-name">Carlos Limón Franco <span>· Google</span></div>
       </div>
 
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
-        <p>"[Pega aquí el texto exacto de otra reseña real de Google]"</p>
-        <div class="review-name">[Nombre del paciente] <span>· Google</span></div>
+        <p>"Excelente atención 😍 Muy contenta con mi tratamiento llevo poco tiempo y e notado muchos cambios. Los precios son muy accesibles. 100% recomendado 😍"</p>
+        <div class="review-name">Carolina Macias <span>· Google</span></div>
       </div>
 
       <div class="review-placeholder">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="9" r="2.3"/></svg>
-        <span>Agrega tu tercera reseña aquí, o enlaza directo a tu perfil de Google para ver todas.</span>
+        <span>Mira todas las opiniones de nuestros pacientes en Google.</span>
         <a class="link-btn" href="https://maps.app.goo.gl/y4wor6PgD1kycRPy6?g_st=iwb" target="_blank" rel="noopener" style="margin-top:4px;">Ver todas en Google →</a>
       </div>
 
@@ -568,8 +536,8 @@
   <div class="wrap">
     <div class="about">
       <div class="about-photos">
-        <img class="tall" src="assets/office-1.jpg" alt="Recepción de Orthoaliner">
-        <img class="short" src="assets/office-2.jpg" alt="Interior de la clínica Orthoaliner">
+        <img class="tall" src="assets/consultorio.jpg" alt="Recepción y consultorio de Orthoaliner">
+        <img class="short" src="assets/consultorio1.jpg" alt="Área de sillones donde se realizan los tratamientos">
       </div>
       <div class="about-text">
         <span class="eyebrow">Desde 1998</span>
@@ -596,13 +564,13 @@
         <div class="vip-price">$12,000 <small>MXN / año</small></div>
       </div>
       <div>
-      <ul>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Consulta de odontología general sin costo</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Descuento en consulta con especialista</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> 10% de descuento en tratamientos</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> 1 saneamiento dental + 1 profilaxis al año</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> 1 estudio radiográfico digital</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Cita preferencial y programa de educación/prevención</li>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Consulta de odontología general sin costo</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Descuento en consulta con especialista</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> 10% de descuento en tratamientos</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> 1 saneamiento dental + 1 profilaxis al año</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> 1 estudio radiográfico digital</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Cita preferencial y programa de educación/prevención</li>
         </ul>
         <a class="link-btn" href="https://wa.link/0uoe8y" target="_blank" rel="noopener" onclick="if(window.fbq)fbq('track','Lead');if(window.gtag)gtag('event','click_whatsapp',{event_category:'membresia_vip',event_label:'seccion_membresia'});">Quiero la membresía VIP</a>
       </div>
@@ -619,7 +587,7 @@
         <h2>Tu valoración inicial, completa</h2>
         <div class="price">$600 <small>MXN</small></div>
         <p style="opacity:.85; margin-top:10px; font-size:.92rem;">Antes de recomendarte un tratamiento, evaluamos tu caso a fondo para armar un plan a tu medida.</p>
-        <!-- Manejo de la objeción de costo: ajusta este texto a tus opciones reales de pago (mensualidades, tarjeta, meses sin intereses, etc.) -->
+        <!-- Ajusta este texto a tus opciones reales de pago (mensualidades, tarjeta, meses sin intereses, etc.) -->
         <p style="opacity:.85; margin-top:14px; font-size:.88rem; border-top:1px solid rgba(255,255,255,.15); padding-top:14px;">💳 Preguntamos por tus opciones de pago en la valoración — tenemos planes que se ajustan a tu presupuesto. Posponer un tratamiento pequeño casi siempre sale más caro que atenderlo a tiempo.</p>
       </div>
       <ul>
@@ -633,7 +601,7 @@
   </div>
 </section>
 
-<!-- ===================== LEAD TIBIO (sin backend, abre WhatsApp con el mensaje prellenado) ===================== -->
+<!-- ===================== LEAD TIBIO (abre WhatsApp con el mensaje prellenado) ===================== -->
 <section id="duda">
   <div class="wrap">
     <div class="lead-box">
@@ -641,13 +609,12 @@
         <h2>¿Tienes dudas antes de agendar?</h2>
         <p>Cuéntanos tu caso en una línea y te contestamos por WhatsApp — sin compromiso.</p>
       </div>
-      <!-- Reemplaza 523311112222 por el número real de WhatsApp de la clínica (con código de país 52 + lada + número, sin espacios ni signos) -->
       <form class="lead-form" onsubmit="
         event.preventDefault();
         var nombre = document.getElementById('lead-nombre').value.trim();
         var duda = document.getElementById('lead-duda').value.trim();
         var msg = 'Hola, soy ' + nombre + '. Mi duda es: ' + duda;
-        var url = 'https://wa.me/523311112222?text=' + encodeURIComponent(msg);
+        var url = 'https://wa.me/523311327223?text=' + encodeURIComponent(msg);
         if(window.fbq) fbq('track','Lead');
         if(window.gtag) gtag('event','lead_form_submit',{event_category:'contacto',event_label:'formulario_duda'});
         window.open(url, '_blank');
